@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Signup Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="GSF.css">
+        <script 
+            src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src='https://pngimg.com/uploads/google/google_PNG19644.png' alt="logo.png"/>
+        </div>
+
+        <div class="formbox">
+            <h1>Sign in</h1>
+            <span>Use Your Google Account</span>
+            <form>
+              <div class="inputBox">
+                 <input 
+                 type="email" 
+                 name="email"
+                 id="email-field"
+                 class="input-field"
+                 required 
+                 autofocus
+                 autocomplete="off"/>
+                 <label for="email-field" class="placeholder">Email or Phone </label>
+              </div>
+              <div class="inputBox">
+                 <input 
+                 type="password"
+                 name="password"
+                 class="input-field"
+                 id="password-field"
+                 autofocus
+                 required/>
+                 <label for="password-field" class="placeholder">Password</label>
+              </div>
+
+              <a href="#" class="forgot">Forget email?</a>
+
+              <div class="buttons">
+                <a href="#" class="create-account">Create New Account</a>
+                <button class="sign-in">Next</button>
+              </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="GSF.js"></script>
+</html>
